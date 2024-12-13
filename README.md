@@ -24,7 +24,7 @@ myLoans es una aplicación de gestión de préstamos desarrollada con React, Typ
 
 1. Clona el repositorio:
 ```
-git clone https://github.com/tu-usuario/myLoans.git
+git clone https://github.com/CrazyPosho/myLoans.git
 cd myLoans
 npm install
 npm run dev
