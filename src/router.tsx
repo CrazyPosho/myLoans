@@ -8,7 +8,7 @@ import { ClientProvider } from "./context/ClientContext";
 export const AppRoutes = () => {
   return (
     <ClientProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/myLoans/docs">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
