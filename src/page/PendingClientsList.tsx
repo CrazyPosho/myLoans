@@ -3,6 +3,9 @@ import { useClientContext } from "../context/ClientContext";
 
 const PendingClientsList = () => {
   const { clients } = useClientContext();
+  console.log(clients.length);
+  console.log(clients.length);
+
 
   return clients.length === 0 ? (
     <div className="mx-auto px-32 py-96 bg-gray-100 dark:bg-gray-900">
